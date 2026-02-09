@@ -68,7 +68,7 @@ export default function HomePage() {
           onChange={(e) => setPages(e.target.value)}
           required
         />
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" id="submit" />
       </form>
     </>
   );
